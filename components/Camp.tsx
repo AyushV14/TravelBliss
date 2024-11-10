@@ -3,10 +3,10 @@ import { PEOPLE_URL } from "@/constants"
 import Image from "next/image"
 
 interface CampProps{
-  backgroundImage: String,
-  title: String,
-  subtitle: String,
-  peopleJoined: String,
+  backgroundImage: string,
+  title: string,
+  subtitle: string,
+  peopleJoined: string,
 
 }
 

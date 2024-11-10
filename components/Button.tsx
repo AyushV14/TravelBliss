@@ -3,8 +3,8 @@ import Image from "next/image"
 
 type ButtonProps = {
     type : 'button' | 'submit';
-    title: 'string';
-    icon?:'string';
+    title: string;
+    icon?: string;
     varient:'string';
     full:boolean;
 }
