@@ -5,8 +5,8 @@ type ButtonProps = {
     type : 'button' | 'submit';
     title: string;
     icon?: string;
-    varient:'string';
-    full:boolean;
+    varient:string;
+    full?:boolean;
 }
 const Button = ({ type, title, varient , icon,full }: ButtonProps) => {
   return (

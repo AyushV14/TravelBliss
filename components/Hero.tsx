@@ -23,6 +23,7 @@ const Hero = () => {
               {Array(5).fill(1).map((_, index)=>(
                 <Image
                   src="/star.svg"
+                  alt='star'
                   key={index}
                   width={24}
                   height={24}
